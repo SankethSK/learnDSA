@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+/home/sankethsk/Documents/Sem2/dsa/01/.metadata/.plugins/org.eclipse.jdt.core
+1865797976.index
+291738638.index
+3500325642.index
