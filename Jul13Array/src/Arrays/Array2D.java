@@ -39,7 +39,19 @@ public class Array2D {
 		[[I@6d78f375
 		  [[I@6d78f375
 		  [[I@6d78f375
-		*/
+		
+		for(int i=0;i<n;i++)
+			{
+				System.out.print(arr.toString());
+				System.out.println();
+				
+			}/*output
+			
+		[[I@6d78f375
+		  [[I@6d78f375
+		  [[I@6d78f375
+			*/
+		
 
 			for(int i=0;i<n;i++)
 			{
