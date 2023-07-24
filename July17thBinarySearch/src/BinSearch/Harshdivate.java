@@ -14,20 +14,35 @@ public class Harshdivate {
 			arr[i]=m;
 		}
 		System.out.println(Arrays.toString(arr));
-
-		int[] product=new int[n];
+//		int sum=0;
+		int product=1;
 		for(int i=0;i<arr.length;i++)
 		{
-			int m=0;
-			int mul=1;
-			while(m<n)
+			if(arr[i]>0)
 			{
-				mul=(mul*arr[m]);
-				m++;
+				product=product*arr[i];
 			}
-			product[i]=mul/arr[i];
+			else
+			{
+				product=product/1;
+			}
 		}
-		System.out.println(Arrays.toString(product));
+
+		int[] newArr=new int[arr.length];
+		for(int i=0;i<arr.length;i++)
+		{
+			if(arr[i]>0)
+			{
+//				product=product*arr[i];
+				newArr[i]=product/arr[i];
+			}
+			else
+			{
+				newArr[i]=0;
+			}
+		}
+		
+		System.out.println(Arrays.toString(newArr));
 		in.close();
 	}
 }
